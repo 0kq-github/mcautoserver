@@ -1,6 +1,6 @@
 # mcautoserver
 マイクラ鯖自動構築スクリプト for CentOS  
-
+即席で作ったのでかなり雑です  
 ## Usage
 rootまたはsudoが使えるユーザーで実行してください
 
