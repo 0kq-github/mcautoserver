@@ -21,7 +21,7 @@ java -version &> /dev/null
   :
 fi
 
-read -p "マイクラのバージョン(1.14.4~1.17対応): " mcver
+read -p "マイクラのバージョン(1.14.4~1.17.1対応): " mcver
 
 read -p "メモリ割り当て量(単位込みで入力してください): " mem
 
