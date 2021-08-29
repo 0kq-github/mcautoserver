@@ -30,7 +30,7 @@ read -p "起動するポート: " mcport
 if [[ $javainst = y ]]; then
  curl -OL https://cdn.discordapp.com/attachments/832626889335504986/861168988616654849/adoptopenjdk.repo
  mv adoptopenjdk.repo /etc/yum.repos.d/
- yum install -y adoptopenjdk-16-openj9-jre
+ sudo yum install -y adoptopenjdk-16-openj9-jre
 fi
 
 mkdir "minecraft_server_${mcver}"
