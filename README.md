@@ -5,6 +5,6 @@
 rootまたはsudoが使えるユーザーで実行してください
 
 ```bash
-curl -OL https://raw.githubusercontent.com/0kq-github/mcautoserver/main/autoserver.sh && sudo bash ./autoserver.sh
+curl -OL https://raw.githubusercontent.com/0kq-github/mcautoserver/main/autoserver.sh && bash ./autoserver.sh
 ```
 
