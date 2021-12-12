@@ -127,7 +127,7 @@ elif [ $mcver = "1.17.1" ]; then
 elif [ $mcver = "1.18" ]; then
  curl -L -o server.jar https://launcher.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar
  echo java -Dlog4j2.formatMsgNoLookups=true -Xmx$mem -Xms$mem -server -jar server.jar nogui > start.sh
-elif [ $mcver = "1.18.1"]; then
+elif [ $mcver = "1.18.1" ]; then
  curl -L -o server.jar https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
  echo java -Xmx$mem -Xms$mem -server -jar server.jar nogui > start.sh
 else
