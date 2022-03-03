@@ -21,7 +21,7 @@ java -version &> /dev/null
   :
 fi
 
-read -p "マイクラのバージョン(1.12~1.18.1対応): " mcver
+read -p "マイクラのバージョン(1.12~1.18.2対応): " mcver
 
 read -p "メモリ割り当て量(単位込みで入力してください): " mem
 
@@ -129,6 +129,9 @@ elif [ $mcver = "1.18" ]; then
  echo java -Dlog4j2.formatMsgNoLookups=true -Xmx$mem -Xms$mem -server -jar server.jar nogui > start.sh
 elif [ $mcver = "1.18.1" ]; then
  curl -L -o server.jar https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
+ echo java -Xmx$mem -Xms$mem -server -jar server.jar nogui > start.sh
+elif [ $mcver = "1.18.2" ]; then
+ curl -L -o server.jar https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
  echo java -Xmx$mem -Xms$mem -server -jar server.jar nogui > start.sh
 else
  echo "対応していないバージョンです"
