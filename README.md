@@ -8,3 +8,7 @@ rootまたはsudoが使えるユーザーで実行してください
 curl -OL https://raw.githubusercontent.com/0kq-github/mcautoserver/main/autoserver.sh && bash ./autoserver.sh
 ```
 
+英語版
+```bash
+curl -OL https://raw.githubusercontent.com/0kq-github/mcautoserver/main/autoserver-en.sh && bash ./autoserver-en.sh
+```
